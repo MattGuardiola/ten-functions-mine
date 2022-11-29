@@ -21,3 +21,70 @@
  * concat
  */
 
+function isEven (num){
+ if(parseInt(num) % 2 === 0){
+     return true
+ }
+ else return false
+}
+
+
+
+function isTrue(input){
+    if (input == true){
+        return true
+    }
+    else return false
+}
+
+
+
+function isFalse(input){
+    if(input == false){
+        return true
+    }
+    else return false
+}
+
+function isEqual(input1 , input2){
+    if(input1 == input2){
+        return true
+    }
+    else return false
+}
+
+function isIdentical(input1 , input2){
+    if(input1 === input2){
+        return true
+    }
+    else return false
+}
+
+function not(input){
+    return !input
+}
+
+
+function addOne (num){
+    if(num === Infinity) {
+        return Infinity
+    } else {
+            return (parseInt(num) + 1)
+        }
+}
+function or(input1 , input2){
+    return input1 || input2;
+
+}
+
+
+function and(input1 , input2) {
+    return (input1 && input2)
+}
+
+function concat(input1 , input2){
+    return (`${input1}${input2}`)
+}
+
+
+
